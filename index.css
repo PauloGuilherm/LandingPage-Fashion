@@ -65,3 +65,44 @@ figcaption h3{
 figcaption p{
     color: rgba(0, 0, 0, 0.6);
 }
+
+.container-figure{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-section4{
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+
+.contentSection4{
+    margin-top: 80px;
+    height: 600px;
+    width: 70%;
+    background-color: rgba(0,61,82,255);
+    background-image: url(./imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+
+.contentSection4 h3{
+    text-align: start;
+    margin: 80px;
+    font-size: 50px;
+}
+
+
+.contentSection4 p{
+    text-align: start;
+    margin: 80px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
